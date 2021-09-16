@@ -185,7 +185,7 @@ const student = {
   
   
   let question1 = new Question(1);
-  let question2 = new Question(2, 'ทำไมคนชื่อภีมถึงหล่อ?');
+  let question2 = new Question(2, 'whois peam?');
   
   
   
