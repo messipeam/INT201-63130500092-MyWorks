@@ -17,6 +17,9 @@ client.on("message", async (message) => {
   if (message.content === `${prefix}hello`) {
     message.channel.send(`สวัสดีครับคุณ ${message.author} กินหมูมั๊ยครับ`);
   }
+  if (message.content === `${prefix}เอเชีย`) {
+    message.channel.send(`ข้ารู้จักชายผู้นี้ เขาเป็นชายที่จู๋แหลมที่สุดในโลก!`);
+  }
 
   if (message.content.startsWith(`${prefix}join`)) {
     if (message.member.voice.channel) {
@@ -59,4 +62,5 @@ client.on("message", async (message) => {
       message.channel.bulkDelete(messages);
     });
   }
+
 });
